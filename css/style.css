@@ -73,6 +73,17 @@ input[type="submit"] {
   border: 0;
 }
 
+input.error, textarea.error {
+  border: 1px solid red;
+}
+
+span.error {
+  display: none;
+  color: red;
+}
+
+
+
 input[type="submit"]:hover {
   background: #555;
 }
